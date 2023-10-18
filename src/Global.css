@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    background-color: rgb(245, 245, 245);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+    margin-left: 1%;
+    border: 1px solid #e6e6e6;
+    padding: 5px;
+    border-radius: 5px;
+}
+.button:hover{
+    box-shadow: 0px 0px 25px rgb(194, 193, 193);
+    font-weight: 300;
+}
+
+.header {
+    background-color: white;
+    width: 98%;
+    height: max-content;
+    padding: 1%;
+    /* padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%; */
+}
+
+.displayWindow {
+    background-color: ghostwhite;
+    height: fit-content;
+    width: 15%;
+    padding: 1%;
+    position: absolute;
+    margin-top: 0.5%;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+
+    display: flex;
+    justify-content: left;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.dropDownRow {
+    margin: 0.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mainBlock::-webkit-scrollbar {
+    display: none;
+}
+
+.mainBlock {
+    width: 98%;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+}
+
+
+.columnBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+.blockHeader{
+    display: flex;
+    flex-direction: row;
+}
+
+.blockTitle{
+    font-size: large;
+    font-weight: 650;
+    margin-left: 5px;
+}
+
+.afterTitle{
+    margin-left: auto;
+}
+
+.tile{
+    width: 300px;
+    background-color: ghostwhite;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid #e6e6e6;
+    /* border-color: gray; */
+    box-shadow: 0px 0px 25px #e4e4e4;
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+.tile:hover{
+    box-shadow: 0px 0px 25px rgb(194, 193, 193);
+}
+.tileId{
+    color: gray;
+    margin: 2px;
+}
+.tileTitle{
+    color: black;
+    font-size: large;
+    font-weight: 600;
+    margin: 2px;
+}
+.tileFeatureArray{
+    display: flex;
+    flex-direction: row;
+}
+.tileFeature{
+    color: gray;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
